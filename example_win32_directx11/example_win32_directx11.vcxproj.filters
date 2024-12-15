@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_edited.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_freetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_settings.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="textures.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory2\RojasMemory.h" />
+    <ClInclude Include="Memory2\Memory.h" />
+    <ClInclude Include="Memory2\Mem.hpp" />
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="DiscordSDK\src\serialization.h" />
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h" />
+    <ClInclude Include="DiscordSDK\src\msg_queue.h" />
+    <ClInclude Include="DiscordSDK\src\discord_rpc.h" />
+    <ClInclude Include="DiscordSDK\src\discord_register.h" />
+    <ClInclude Include="DiscordSDK\src\connection.h" />
+    <ClInclude Include="DiscordSDK\src\backoff.h" />
+    <ClInclude Include="DiscordRPC\Discord.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\allocators.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\document.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodedstream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\encodings.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\filereadstream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\filewritestream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\fwd.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorybuffer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\memorystream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\pointer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\prettywriter.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\rapidjson.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\reader.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\schema.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\stream.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\stringbuffer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\writer.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\en.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\error\error.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\clzll.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\itoa.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\meta.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\pow10.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\regex.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\stack.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\strtod.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\internal\swap.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="DiscordSDK\src\rapidjson\msinttypes\inttypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_edited.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_freetype.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory2\Mem.cpp" />
+    <ClCompile Include="DiscordSDK\src\serialization.cpp" />
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp" />
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp" />
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp" />
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp" />
+    <ClCompile Include="DiscordRPC\Discord.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="DiscordSDK\build.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\freetype\win64\freetype.lib">
+      <Filter>imgui</Filter>
+    </Library>
+    <Library Include="auth\library_x64.lib" />
+    <Library Include="auth\libcurl.lib" />
+  </ItemGroup>
+</Project>
